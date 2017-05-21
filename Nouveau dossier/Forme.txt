@@ -1,0 +1,6 @@
+function forme(){
+	var cube ,
+	var sphere;
+
+	 forme =document.getElementById("forme").value
+}

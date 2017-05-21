@@ -1,0 +1,2 @@
+https://jsfiddle.net/cr1r8dh0/1/
+https://stackoverflow.com/questions/44087678/replace-a-cube-by-a-sphere-in-three-js-with-an-input

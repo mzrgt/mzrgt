@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    
+    <title>Géométrie dans l'espace</title>
+    
+    <header>
+   
+      <h1><center>Géométrie dans l'espace avec three.js</center></h1>
+    
+    </header>
+    
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+ 
+  <body>
+      <div id="content">
+        
+        <div class="leftbox">
+          
+          <h1>Représentation dans l'espace</h1>
+
+            <div class="Géométrie">
+
+              <script src="lib/jquery.min.js"></script>
+              <script src="lib/three.min.js"></script>
+              <script src="lib/Detector.js"></script>
+              <script src="lib/THREE.OrbitControls.js"></script>
+              <script src="lib/stats.min.js"></script>
+              <script src="lib/build.js"></script>
+              <script src="script.js"></script>
+
+            </div>
+
+        </div>  
+
+        <div class="rightbox">
+          
+          <h1>Caractéristiques :</h1>
+          <p>Forme : <input id= "forme" type="text">
+        <button onclick="forme()">ok</button></p>
+
+          <p> Longueur <input id= "longueur" type="number">  
+              Largeur  <input id= "largeur" type="number">
+		   Profondeur  <input id="profondeur" type="number"></p>
+					  <button onclick="modifie()">ok</button></p>
+
+
+        </div>  
+
+      </div>
+
+<footer>Copyright TS8 Ben et Mouz&copy; - 2017-2018 - All Rights Reserved</footer>
+  </body>
+</html>

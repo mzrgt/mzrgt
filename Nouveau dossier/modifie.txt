@@ -1,0 +1,9 @@
+function modifie(){
+	var longueur ,
+	var largeur,
+	var profondeur.
+
+	 longueur =document.getElementById("longeur").value
+	 largeur =document.getElementById("largeur").value
+	 profondeur =document.getElementById ("profondeur").value
+}
