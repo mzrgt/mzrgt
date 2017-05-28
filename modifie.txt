@@ -1,0 +1,42 @@
+function modifie() {	
+	scene.remove(box);
+	scene.remove(sphere);
+var length;
+var width;
+var depth;
+var boxGeo= new THREE.boxGeometry (length=document.getElementById("longueur").value; width=document.getElementById("largeur").value;depth=document.getElementById(profondeur).value);
+}
+
+function pyramide() {
+scene.remove(sphere);
+
+var pyramidGeo= new THREE.CylinderGeometry (0, 1.5, 1.5, 4, false);
+
+
+var pyramidMat=new THREE.MeshLambertMaterial({color: 0xff00ff});
+
+var sphere = new THREE.Mesh(pyramidGeo,pyramidMat);
+scene.add(pyramid);
+}
+function cube() {
+scene.remove(box);
+
+var box.Geo = new THREE.BoxGeometry(100, 125, 50);
+
+
+var sphereMat=new THREE.MeshLambertMaterial({color: 0xff00ff});
+
+var sphere = new THREE.Mesh(boxGeo,boxMat);
+scene.add(box);
+}
+	var pyramidGeo= new THREE.CylinderGeometry (0, 1.5, 1.5, 4, false);
+
+
+var pyramidMat=new THREE.MeshLambertMaterial({color: 0xff00ff});
+
+var pyramid = new THREE.Mesh(pyramidGeo,pyramidMat);
+scene.add(pyramid);
+
+function change() {
+	mesh.scale.set( width, height, 1 );
+}
